@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Главная страница магазина Edison Shoes</title>
+  <title>Интернет-магазин модной обуви Edison Shoes. Главная страница</title>
 </head>
 <body class="page">
 <header class="page__header page-header">
@@ -39,7 +39,7 @@
         </a>
       </li>
       <li class="site-navigation__item">
-        <a class="site-navigation__link site-navigation__link--special" href="#">
+        <a class="site-navigation__link site-navigation__link--accent" href="#">
           SALE
         </a>
       </li>
@@ -49,19 +49,19 @@
         </a>
       </li>
     </ul>
-    <ul class="user">
-      <li class="user__item">
-        <a class="user__link" href="#">
+    <ul class="user-navigation">
+      <li class="user-navigation__item">
+        <a class="user-navigation__link" href="#">
           Войти
         </a>
       </li>
-      <li class="user__item">
-        <a class="user__link" href="#">
+      <li class="user-navigation__item">
+        <a class="user-navigation__link" href="#">
           Избранное
         </a>
       </li>
-      <li class="user__item">
-        <a class="user__link" href="#">
+      <li class="user-navigation__item">
+        <a class="user-navigation__link" href="#">
           Корзина
         </a>
       </li>
@@ -70,203 +70,216 @@
 </header>
 <main class="page__content">
   <h1 class="visually-hidden">
-    Главная страница магазина Edison Shoes.
+    Магазин обуви бренда Edison.
   </h1>
   <section class="promo">
-    <div class="promo__content">
-      <h2 class="promo__title">
-        Большая распродажа!
-      </h2>
-      <p class="promo__description">
-        Скидки до 70% на коллекцию демисезонной обуви
-      </p>
-      <a class="promo__link button button--accent" href="#">
-        Смотреть каталог
-      </a>
-      <img class="promo__image" src="img/" width="" height="" alt=".">
+    <div class="promo__content banner">
+      <div class="banner__content">
+        <h2 class="banner__title">
+          Большая распродажа!
+        </h2>
+        <img class="banner__image" src="img/banner/banner_pic_shoe.jpg" width="1440" height="800"
+             alt="Фото демисезонной обуви со скидкой.">
+        <p class="banner__description">
+          Скидки до 70% на коллекцию демисезонной обуви
+        </p>
+        <a class="banner__link button button--primary button--size-xl" href="#">
+          Смотреть каталог
+        </a>
+      </div>
     </div>
   </section>
-  <section class="card">
-    <h2 class="card__title">
-      Новая коллекция
-    </h2>
-    <a class="card__show-more" href="#">
-      Смотреть все
-    </a>
-    <ul class="product">
-      <li class="product__item">
-        <a class="product__link" href="#">
-          <img class="product__image" src="img/" width="" height="" alt=".">
-          <p class="product__name">
-            Туфли Shein
-          </p>
-          <p class="product__price">
-            17 500 ₽
-          </p>
-        </a>
-        <a class="product__more-details button button--secondary" href="#">
+  <section class="catalog">
+    <header class="catalog__headline headline">
+      <h2 class="headline__title">
+        Новая коллекция
+      </h2>
+      <a class="headline__link link">
+        Смотреть все
+      </a>
+    </header>
+    <div class="catalog__content">
+      <article class="catalog-card">
+        <h3 class="catalog-card__title">
+          Туфли Shein
+        </h3>
+        <img class="catalog-card__image" src="img/catalog/shoe-pic-1.jpg" width="275" height="300" alt="Обувь">
+        <p class="catalog-card__price">
+          17 500 ₽
+        </p>
+        <a class="button button--secondary" href="#">
           Подробнее
         </a>
-        <button class="product__add-button button button--accent" type="button">
+        <a class="button button--primary" href="#">
           В корзину
-        </button>
-      </li>
-      <li class="product__item">
-        <a class="product__link" href="#">
-          <img class="product__image" src="img/" width="" height="" alt=".">
-          <p class="product__name">
-            Мюли Grace
-          </p>
-          <p class="product__price">
-            15 000 ₽
-          </p>
         </a>
-        <a class="product__more-details button button--secondary" href="#">
+      </article>
+      <article class="catalog-card">
+        <h3 class="catalog-card__title">
+          Мюли Grace
+        </h3>
+        <img class="catalog-card__image" src="img/catalog/shoe-pic-1.jpg" width="275" height="300" alt="Обувь">
+        <p class="catalog-card__price">
+          15 000 ₽
+        </p>
+        <a class="button button--secondary" href="#">
           Подробнее
         </a>
-        <button class="product__add-button button button--accent" type="button">
+        <a class="button button--primary" href="#">
           В корзину
-        </button>
-      </li>
-      <li class="product__item">
-        <a class="product__link" href="#">
-          <img class="product__image" src="img/" width="" height="" alt=".">
-          <p class="product__name">
-            Кроссовки Brand
-          </p>
-          <p class="product__price">
-            9 500 ₽
-          </p>
         </a>
-        <a class="product__more-details button button--secondary" href="#">
+      </article>
+      <article class="catalog-card">
+        <h3 class="catalog-card__title">
+          Кроссовки Brand
+        </h3>
+        <img class="catalog-card__image" src="img/catalog/shoe-pic-1.jpg" width="275" height="300" alt="Обувь">
+        <p class="catalog-card__price">
+          9 500 ₽
+        </p>
+        <a class="button button--secondary" href="#">
           Подробнее
         </a>
-        <button class="product__add-button button button--accent" type="button">
+        <a class="button button--primary" href="#">
           В корзину
-        </button>
-      </li>
-      <li class="product__item">
-        <a class="product__link" href="#">
-          <img class="product__image" src="img/" width="" height="" alt=".">
-          <p class="product__name">
-            Ботинки Kelly
-          </p>
-          <p class="product__price">
-            18 500 ₽
-          </p>
         </a>
-        <a class="product__more-details button button--secondary" href="#">
+      </article>
+      <article class="catalog-card">
+        <h3 class="catalog-card__title">
+          Ботинки Kelly
+        </h3>
+        <img class="catalog-card__image" src="img/catalog/shoe-pic-1.jpg" width="275" height="300" alt="Обувь">
+        <p class="catalog-card__price">
+          18 500 ₽
+        </p>
+        <a class="button button--secondary" href="#">
           Подробнее
         </a>
-        <button class="product__add-button button button--accent" type="button">
+        <a class="button button--primary" href="#">
           В корзину
-        </button>
-      </li>
-    </ul>
+        </a>
+      </article>
+    </div>
   </section>
-  <section class="card blog">
-    <h2 class="card__title">
-      Блог
-    </h2>
-    <a class="card__show-more" href="#">
-      Все статьи
-    </a>
-    <ul class="blog__list">
-      <li class="blog__item">
-        <article class="blog__content">
-          <h3 class="blog__title">
-            Как ухаживать за кожаной обувью
-          </h3>
-          <p class="blog__description">
-            Обувь из натуральной кожи практичная, красивая и долговечная. Благодаря материалу, в ней тепло зимой и
-            не жарком летом. Чтобы кожаная обувь прослужила вам ни один год, за ней необходимо правильно и
-            своевременно ухаживать.
-          </p>
-          <a class="blog__link button button--accent" href="#">
-            Читать статью
-          </a>
-        </article>
-      </li>
-      <li class="blog__item">
-        <article class="blog__content">
-          <h3 class="blog__title">
-            Как выбрать обувь в 2021
-          </h3>
-          <p class="blog__description">
-            Стилист и ведущая программы “Все о моде” Ева Миллер рассказала о трендах обуви этого года. Современная
-            мода удивляет многообразием формы и цветовой гаммы, а ключевым трендом является комфорт, удобство и
-            лаконичность.
-          </p>
-          <a class="blog__link button button--accent" href="#">
-            Читать статью
-          </a>
-        </article>
-      </li>
-      <li class="blog__item">
-        <article class="blog__content">
-          <h3 class="blog__title">
-            Как правильно выбирать кеды
-          </h3>
-          <p class="blog__description">
-            Кеды - одна их самых популярных моделей обуви уже не первый сезон. Их можно носить с любой одеждой:
-            платьем, костюмом, джинсами и т.д. Такую обувь любят и мужчины и женщины и дети. Рассказываем, как
-            выбрать качественные кеды.
-          </p>
-          <a class="blog__link button button--accent" href="#">
-            Читать статью
-          </a>
-        </article>
-      </li>
-    </ul>
+  <section class="blog">
+    <header class="blog__headline headline">
+      <h2 class="headline__title">
+        Блог
+      </h2>
+      <a class="headline__link link">
+        Все статьи
+      </a>
+    </header>
+    <div class="blog__content">
+      <article class="blog-card">
+        <h3 class="blog-card__title">
+          Как ухаживать за кожаной обувьюи
+        </h3>
+        <img class="blog-card__image" src="img/blog/photo-2.jpg" width="380" height="233" alt="Иллюстрация.">
+        <p class="blog-card__description">
+          Обувь из натуральной кожи практичная, красивая и долговечная. Благодаря материалу, в ней тепло зимой и не
+          жарком летом. Чтобы кожаная обувь прослужила вам ни один год, за ней необходимо правильно и своевременно
+          ухаживать.
+        </p>
+        <a class="button button--primary" href="#">
+          Читать статью
+        </a>
+      </article>
+      <article class="blog-card">
+        <h3 class="blog-card__title">
+          Как выбрать обувь в 2021
+        </h3>
+        <img class="blog-card__image" src="img/blog/photo-1.jpg" width="380" height="233" alt="Иллюстрация.">
+        <p class="blog-card__description">
+          Стилист и ведущая программы “Все о моде” Ева Миллер рассказала о трендах обуви этого года. Современная
+          мода удивляет многообразием формы и цветовой гаммы, а ключевым трендом является комфорт, удобство и
+          лаконичность.
+        </p>
+        <a class="button button--primary" href="#">
+          Читать статью
+        </a>
+      </article>
+      <article class="blog-card">
+        <h3 class="blog-card__title">
+          Как правильно выбирать кеды
+        </h3>
+        <img class="blog-card__image" src="img/blog/photo.jpg" width="380" height="233" alt="Иллюстрация.">
+        <p class="blog-card__description">
+          Кеды - одна их самых популярных моделей обуви уже не первый сезон. Их можно носить с любой одеждой:
+          платьем, костюмом, джинсами и т.д. Такую обувь любят и мужчины и женщины и дети. Рассказываем, как выбрать
+          качественные кеды.
+        </p>
+        <a class="button button--primary" href="#">
+          Читать статью
+        </a>
+      </article>
+    </div>
   </section>
-  <section class="card">
-    <h2 class="card__title">
-      Отзывы
-    </h2>
-    <a class="card__show-more" href="#">
-      Все отзывы
-    </a>
-    <ul class="reviews">
-      <li class="reviews__item">
-        <blockquote class="reviews__content">
-          <img class="reviews__avatar" src="img/" width="" height="" alt=".">
-          <cite class="reviews__name">
-            Валерия
-          </cite>
-          <time class="reviews__date" datetime="2021-06-28">28.06.2021</time>
-          <p class="reviews__text">
-            Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только
-            оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
-          </p>
-        </blockquote>
-      </li>
-      <li class="reviews__item">
-        <blockquote class="reviews__content">
-          <img class="reviews__avatar" src="img/" width="" height="" alt=".">
-          <cite class="reviews__name">
-            Сергей
-          </cite>
-          <time class="reviews__date" datetime="2021-06-12">12.06.2021</time>
-          <p class="reviews__text">
-            Покупаем детям обувь только в Edison. Дочки бегают везде, лужи, сугробы, грязь – обуви ничего не
-            страшно. Когда становится малой, отдаем племянникам, потому что вся обувь выглядит как новая, все довольны.
-          </p>
-        </blockquote>
-      </li>
-      <li class="reviews__item">
-        <blockquote class="reviews__content">
-          <img class="reviews__avatar" src="img/" width="" height="" alt=".">
-          <cite class="reviews__name">
-            Елена
-          </cite>
-          <time class="reviews__date" datetime="2021-05-05">05.05.2021</time>
-          <p class="reviews__text">
-            Впервые узнала об Edison от стилиста, она всегда покупает здесь обувь для клиентов и себе. Качество
-            отличное, оригинальная обувь от известных брендов, причем цена меньше, чем на официальных сайтах.
-          </p>
-        </blockquote>
-      </li>
-    </ul>
+  <section class="reviews">
+    <header class="reviews__headline headline">
+      <h2 class="headline__title">
+        Отзывы
+      </h2>
+      <a class="headline__link link">
+        Все отзывы
+      </a>
+    </header>
+    <div class="reviews__content">
+      <blockquote class="review">
+        <div class="review__headline">
+          <div class="review__author avatar">
+            <img class="avatar__img" src="img/reviews/user-pic-2.jpg" width="300" height="300"
+                 alt="Аватарка пользователя">
+            <cite class="review__name avatar__name">
+              Ольга
+            </cite>
+          </div>
+          <time class="review__time" datetime="2021-06-28">
+            28.06.2021
+          </time>
+        </div>
+        <p class="review__message">
+          Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только
+          оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
+        </p>
+      </blockquote>
+      <blockquote class="review">
+        <div class="review__headline">
+          <div class="review__author avatar">
+            <img class="avatar__img" src="img/reviews/user-pic-1.jpg" width="300" height="300"
+                 alt="Аватарка пользователя">
+            <cite class="review__name avatar__name">
+              Сергей
+            </cite>
+          </div>
+          <time class="review__time" datetime="2021-06-12">
+            12.06.2021
+          </time>
+        </div>
+        <p class="review__message">
+          Покупаем детям обувь только в Edison. Дочки бегают везде, лужи, сугробы, грязь – обуви ничего не страшно.
+          Когда становится малой, отдаем племянникам, потому что вся обувь выглядит как новая, все довольны.
+        </p>
+      </blockquote>
+      <blockquote class="review">
+        <div class="review__headline">
+          <div class="review__author avatar">
+            <img class="avatar__img" src="img/reviews/user-pic-3.jpg" width="300" height="300"
+                 alt="Аватарка пользователя">
+            <cite class="review__name avatar__name">
+              Елена
+            </cite>
+          </div>
+          <time class="review__time" datetime="2021-06-12">
+            12.06.2021
+          </time>
+        </div>
+        <p class="review__message">
+          Впервые узнала об Edison от стилиста, она всегда покупает здесь обувь для клиентов и себе. Качество
+          отличное, оригинальная обувь от известных брендов, причем цена меньше, чем на официальных сайтах.
+        </p>
+      </blockquote>
+    </div>
   </section>
 </main>
 <footer class="page__footer page-footer">
@@ -276,16 +289,23 @@
         <img class="logo__image" src="img/logo/logo.svg" width="170" height="22"
              alt="Логотип страницы магазина Edison Shoes.">
       </a>
-      <a class="page-footer__phone" href="tel:88009995522">
-        8 (800) 999 55 22
-      </a>
-      <a class="page-footer__e-mail" href="mailto:info@edisonshoes.com">
-        info@edisonshoes.com
-      </a>
-      <address class="page-footer__location">
-        Санкт-Петербург,
-        ул. Набережная, д. 40
-      </address>
+      <ul class="page-footer__contacts contacts">
+        <li class="contacts__list-item">
+          <a class="contacts__item contacts__item--phone" href="tel:88009995522">
+            8 (800) 999 55 22
+          </a>
+        </li>
+        <li class="contacts__list-item">
+          <a class="contacts__item contacts__item--mail" href="mailto:info@edisonshoes.com">
+            info@edisonshoes.com
+          </a>
+        </li>
+        <li class="contacts__list-item">
+          <address class="contacts__item contacts__item--map">
+            Санкт-Петербург, ул. Набережная, д. 40
+          </address>
+        </li>
+      </ul>
     </div>
     <div class="page-footer__column">
       <div class="page-footer__navigation service-navigation">
@@ -388,17 +408,15 @@
       </div>
     </div>
     <div class="page-footer__column">
-      <p class="page-footer__subscribe-title">
-        Подпишитесь на нашу рассылку и получите постоянную скидку 10% на все товары, включая новые коллекции
-      </p>
-      <form class="page-footer__form subscribe-form" method="post" enctype="multipart/form-data" action="#"
+      <form class="page-footer__subscribe subscribe" method="post" enctype="multipart/form-data" action="#"
             autocomplete="off">
-        <label class="visually-hidden" for="subscribe">
-          Подписка на рассылку наших новостей и акций.
+        <label class="subscribe__description" for="subscribe">
+          Подпишитесь на нашу рассылку и получите постоянную скидку 10% на все товары, включая новые коллекции
         </label>
-        <input class="subscribe-form__field" type="email" id="subscribe" name="subscribe" placeholder="Введите e-mail">
+        <input class="subscribe__field" type="email" id="subscribe" name="subscribe" placeholder="Введите e-mail">
       </form>
       <ul class="page-footer__payment payment">
+        <p class="payment__category">Способы оплаты:</p>
         <li class="payment__item">
           <img class="payment__image" src="img/" width="" height="" alt="Visa.">
         </li>
