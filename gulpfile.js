@@ -8,7 +8,7 @@ import postUrl from 'postcss-url';
 import autoprefixer from 'autoprefixer';
 import csso from 'postcss-csso';
 import terser from 'gulp-terser';
-import imagemin from 'gulp-imagemin';
+import imagemin, {mozjpeg} from 'gulp-imagemin';
 import webp from 'gulp-webp';
 import svgo from 'gulp-svgmin';
 import { stacksvg } from "gulp-stacksvg";
@@ -58,13 +58,15 @@ export function processScripts () {
 
 export function optimizeImages () {
   return gulp.src('source/img/**/*.{png,jpg}')
-    .pipe(imagemin())
+    .pipe(imagemin([
+      mozjpeg({quality: 90, progressive: true}),
+    ]))
     .pipe(gulp.dest('build/img'))
 }
 
 export function createWebp () {
   return gulp.src('source/img/**/*.{png,jpg}')
-    .pipe(gulpIf(isDevelopment, webp()))
+    .pipe(gulpIf(isDevelopment, webp({quality: 90})))
     .pipe(gulp.dest('build/img'))
 }
 

@@ -1,5 +1,29 @@
-@import "general/variables.scss";
-@import "general/visually-hidden.scss";
-@import "general/fonts.scss";
-@import "general/button";
-@import "general/container.scss";
+/* Вспомогательные "атомарные" классы */
+@import "helpers/container.scss";
+@import "helpers/visually-hidden.scss";
+/* Блоки */
+@import "blocks/page.scss";
+@import "blocks/page-header.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/main-navigation.scss";
+@import "blocks/logo.scss";
+@import "blocks/button.scss";
+@import "blocks/link.scss";
+@import "blocks/site-navigation.scss";
+@import "blocks/subscribe.scss";
+@import "blocks/user-navigation.scss";
+@import "blocks/user-navigation-item.scss";
+@import "blocks/service-navigation.scss";
+@import "blocks/catalog.scss";
+@import "blocks/contacts.scss";
+@import "blocks/catalog-card.scss";
+@import "blocks/blog.scss";
+@import "blocks/blog-card.scss";
+@import "blocks/reviews.scss";
+@import "blocks/review.scss";
+@import "blocks/headline.scss";
+@import "blocks/social.scss";
+@import "blocks/banner.scss";
+@import "blocks/payment.scss";
+@import "blocks/notification-badge.scss";
+@import "blocks/avatar.scss";
