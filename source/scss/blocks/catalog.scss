@@ -1,0 +1,18 @@
+.catalog {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.catalog--theme-bg {
+  background-color: #f5f8fc;
+}
+
+.catalog__headline {
+  margin-bottom: 50px;
+}
+
+.catalog__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 37px;
+}

@@ -1,0 +1,22 @@
+.page {
+  position: relative;
+  display: grid;
+  margin: 0;
+  font-family: "Manrope", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2f3250;
+  min-width: 1440px;
+}
+
+.page__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.page--inner .page__content {
+  margin-bottom: 120px;
+}

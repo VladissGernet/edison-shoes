@@ -1,0 +1,30 @@
+.blog-card {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  justify-items: start;
+}
+
+.blog-card__image {
+  grid-row-start: 1;
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.blog-card__title {
+  margin: 0 0 15px 0;
+  font-family: "Prosto One", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.blog-card__description {
+  margin: 0 0 25px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.blog-card__button {
+  align-self: end;
+}

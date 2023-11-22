@@ -1,0 +1,35 @@
+.review {
+  padding: 30px;
+  margin: 0;
+  border: 1px solid #e0e2ec;
+  border-right: none;
+  box-sizing: border-box;
+}
+
+.review__headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.review__author {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.review__time {
+  justify-self: end;
+  font-size: 14px;
+  line-height: 1;
+  color: #404254;
+  opacity: 0.3;
+}
+
+.review__message {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #404254;
+}

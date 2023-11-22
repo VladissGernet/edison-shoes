@@ -1,0 +1,39 @@
+.catalog-card {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  align-items: start;
+}
+
+.catalog-card__image {
+  grid-row-start: 1;
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.catalog-card__title {
+  grid-column: 1 / -2;
+  align-self: center;
+  margin: 0 0 5px 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  color: #2f3250;
+}
+
+.catalog-card__price {
+  grid-column: 2 / -1;
+  margin: 0 0 5px 0;
+  align-self: center;
+  justify-self: end;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.catalog-card__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  grid-column: 1 / -1;
+  align-self: end;
+}

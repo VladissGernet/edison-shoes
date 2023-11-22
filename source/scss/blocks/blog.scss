@@ -1,0 +1,15 @@
+.blog {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f5f8fc;
+}
+
+.blog__headline {
+  margin-bottom: 50px;
+}
+
+.blog__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}

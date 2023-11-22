@@ -1,0 +1,30 @@
+.payment {
+  display: flex;
+  align-items: center;
+}
+
+.payment__category {
+  margin: 0 35px 0 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.payment__list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 15px;
+}
+
+.payment__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 24px;
+  border: 1px solid #e0e2ec;
+  box-sizing: border-box;
+  border-radius: 2px;
+}

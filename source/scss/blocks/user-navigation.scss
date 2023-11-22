@@ -1,0 +1,12 @@
+.user-navigation {
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.user-navigation--theme-light {
+  fill: #fcfcfc;
+  color: #cacde0;
+}

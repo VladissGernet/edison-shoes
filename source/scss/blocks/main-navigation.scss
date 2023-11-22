@@ -1,0 +1,19 @@
+.main-navigation {
+  display: grid;
+  grid-template-areas: "logo site-nav user-nav";
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 65px;
+}
+
+.main-navigation__logo {
+  grid-area: logo;
+}
+
+.main-navigation__site-navigation {
+  grid-area: site-nav;
+}
+
+.main-navigation__user-navigation {
+  grid-area: user-nav;
+}

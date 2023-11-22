@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+  width: 105px;
+  height: 40px;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.logo:active {
+  opacity: 0.5;
+}
+
+.logo__img {
+  fill: #2f3250;
+}
+
+.logo--theme-light .logo__img {
+  fill: #fcfcfc;
+}

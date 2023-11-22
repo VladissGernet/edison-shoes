@@ -1,0 +1,45 @@
+.contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__list-item {
+  margin-bottom: 14px;
+}
+
+.contacts__item {
+  position: relative;
+  display: block;
+  padding-left: 20px;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  color: inherit;
+  text-decoration: none;
+  max-width: 130px;
+}
+
+.contacts__item::before {
+  position: absolute;
+  content: "";
+  top: 2px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+}
+
+.contacts__item--phone::before {
+  background-image: url("../../img/phone.svg");
+}
+
+.contacts__item--mail::before {
+  background-image: url("../../img/envelope.svg");
+}
+
+.contacts__item--map::before {
+  background-image: url("../../img/pin.svg");
+}

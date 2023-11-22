@@ -1,0 +1,31 @@
+.user-navigation-item__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+
+.user-navigation-item__link:hover {
+  opacity: 0.7;
+}
+
+.user-navigation-item__link:active {
+  opacity: 0.5;
+}
+
+.user-navigation-item__img {
+  width: 18px;
+  height: 18px;
+  fill: inherit;
+}
+
+.user-navigation-item__notification {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+}
