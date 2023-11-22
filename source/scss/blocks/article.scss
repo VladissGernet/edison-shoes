@@ -1,0 +1,26 @@
+.article {
+  padding: 0 20px;
+}
+
+.article__title {
+  text-align: center;
+}
+
+.article__lead {
+  font-style: italic;
+}
+
+.article__quote {
+  margin: 0;
+  padding-left: 30px;
+  font-size: 16px;
+  border-left: 5px solid gray;
+}
+
+.article__quote--big {
+  font-size: 20px;
+}
+
+.article__quote--red {
+  border-left: 5px solid red;
+}

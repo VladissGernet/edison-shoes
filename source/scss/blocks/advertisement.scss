@@ -1,0 +1,15 @@
+.advertisement {
+  display: block;
+}
+
+.advertisement:hover {
+  opacity: 0.7;
+}
+
+.advertisement:focus {
+  opacity: 0.5;
+}
+
+.advertisement__image {
+  display: block;
+}

@@ -1,0 +1,112 @@
+.main-article {
+  display: grid;
+  grid-template-columns: 1fr 210px 1010px 1fr;
+  grid-template-areas:
+    "header header header header"
+    ". aside content .";
+  row-gap: 50px;
+  padding-bottom: 95px;
+}
+
+.main-article__header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 180px;
+  padding-bottom: 130px;
+  background-image: url("../../img/bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  box-sizing: border-box;
+}
+
+.main-article__title {
+  margin: 0;
+  max-width: 700px;
+  font-family: "Prosto One", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 76px;
+  line-height: 84px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.main-article__description {
+  margin: 20px 0;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  color: #cacde0;
+}
+
+.main-article__content {
+  width: 695px;
+  margin-left: 105px;
+  grid-area: content;
+}
+
+.main-article__aside {
+  grid-area: aside;
+}
+
+.main-article__content section {
+  margin: 60px 0;
+}
+
+.main-article__content h2 {
+  margin: 30px 0;
+  font-family: "Prosto One", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+
+.main-article__content .main-article__lead {
+  margin: 30px 0;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.main-article__content p {
+  margin: 30px 0 25px;
+}
+
+.main-article__content figure {
+  margin: 25px 0;
+}
+
+.main-article__content img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.main-article__content figcaption {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  color: #404254;
+}
+
+.main-article__quote {
+  margin: 25px 0;
+}
+
+.main-article__columns {
+  display: grid;
+  grid-template-columns: 380px 275px;
+  align-items: start;
+  gap: 40px;
+}
+
+.main-article__columns figure {
+  margin: 0;
+}
+
+.main-article__columns .main-article__quote {
+  margin: 0;
+}

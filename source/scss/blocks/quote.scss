@@ -1,0 +1,106 @@
+.quote {
+  margin: 0;
+  padding: 0;
+}
+
+.quote--theme-simple {
+  padding: 19px 60px;
+  margin: 0;
+  font-family: "Prosto One", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: #4d66ec;
+  border-top: 1px solid #4d66ec;
+  border-bottom: 1px solid #4d66ec;
+}
+
+.quote--theme-standart {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.quote--theme-standart::before {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  content: "";
+  width: 105px;
+  height: 12px;
+  background-image: url("../../img/left.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.quote--theme-standart::after {
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  content: "";
+  width: 105px;
+  height: 12px;
+  background-image: url("../../img/right.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.quote--theme-standart .quote__content {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #2f3250;
+}
+
+.quote--theme-standart .quote__content::before {
+  content: "«";
+}
+
+.quote--theme-standart .quote__content::after {
+  content: "»";
+}
+
+.quote--theme-standart .quote__caption {
+  margin: 0 0 0 auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.quote--theme-creative {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px;
+  background-image: url("../../img/bg-quote.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quote--theme-creative .quote__content {
+  margin: 0;
+  font-family: "Prosto One", "Arial", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #fcfcfc;
+  text-align: center;
+}
+
+.quote--theme-creative .quote__content::before {
+  content: "«";
+}
+
+.quote--theme-creative .quote__content::after {
+  content: "»";
+}
+
+.quote--theme-creative .quote__caption {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #cacde0;
+  text-align: center;
+}
